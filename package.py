@@ -20,7 +20,8 @@ for i in range(items):
 
 	if weight < 1 or weight > 10:
 		print("Error input. Please enter the weight between 1kg to 10kg.")
-
+		continue
+	
 	current_weight += weight
 	total_weight_of_packages_sent += weight
 
